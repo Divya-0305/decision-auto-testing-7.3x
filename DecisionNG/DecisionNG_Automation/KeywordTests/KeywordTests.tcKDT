@@ -146,6 +146,10 @@
 					<child name="Decision_Export_Appro_Home_screen" key="{AC59539C-DBB6-46BE-84BC-E6C01395D748}" path="Decision_Export_Appro_Home_screen.tcKDTest" />
 					<child name="Decision_Export_Draft_Task_screen" key="{30C09C8D-9593-42E7-8DB2-A7EE60645E10}" path="Decision_Export_Draft_Task_screen.tcKDTest" />
 					<child name="Decision_Export_BIM_with_Messages" key="{71FAB59C-EB36-4174-AD79-424B4FEF6696}" path="Decision_Export_BIM_with_Messages.tcKDTest" />
+					<child name="Decision_Export_BIM_without_Messages" key="{54865722-80D5-4F04-9CD7-6A6762EE3EA3}" path="Decision_Export_BIM_without_Messages.tcKDTest" />
+					<child name="Decision_Export_BIM_with_Formulas" key="{90832C7D-3B5F-46D1-9B40-4627A0919F86}" path="Decision_Export_BIM_with_Formulas.tcKDTest" />
+					<child name="Decision_Export_WO_BIM_with_Formulas" key="{6DE9336C-1EC6-43F5-A681-29FBD1620263}" path="Decision_Export_WO_BIM_with_Formulas.tcKDTest" />
+					<child name="Decision_Export_BIM_With_FormulasMessages" key="{BAB5E48E-2FD7-47D0-94D9-58BA1C64E705}" path="Decision_Export_BIM_With_FormulasMessages.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Decision Flow">
@@ -198,8 +202,11 @@
 						<child name="Edit_GatewayFT" key="{DF5E7AC4-9B7E-4536-83D5-EB157A1CAB15}" path="Edit_GatewayFT.tcKDTest" />
 						<child name="Enable_Editing_GatewayFT" key="{6995236E-D45B-4BF4-8134-191A59E1DD49}" path="Enable_Editing_GatewayFT.tcKDTest" />
 						<child name="Replcace_Existing_FT_Same_DT" key="{210833B2-7A97-45C6-93AD-4C3EB85F89A8}" path="Replcace_Existing_FT_Same_DT.tcKDTest" />
+						<child name="Listing_NewFactType_under_Task" key="{E6880359-B9C7-472C-9348-07B62AB063D9}" path="Listing_NewFactType_under_Task.tcKDTest" />
 					</folder>
-					<child name="Flow_Edit_Unchanged_Asset" key="{142877C1-D95B-4D40-A8AA-044545CD1722}" path="Flow_Edit_Unchanged_Asset.tcKDTest" />
+					<folder name="Unchanged Asset&#13;&#10;">
+						<child name="Flow_Edit_Unchanged_Asset" key="{142877C1-D95B-4D40-A8AA-044545CD1722}" path="Flow_Edit_Unchanged_Asset.tcKDTest" />
+					</folder>
 				</folder>
 			</folder>
 			<folder name="Rule Family">
@@ -306,11 +313,12 @@
 						<child name="RF_Use_all_Operators_with_Multiple_Value" key="{D079FCD1-FB3C-4459-A151-A1CE1FAE3137}" path="RF_Use_all_Operators_with_Multiple_Value.tcKDTest" />
 					</folder>
 					<folder name="Change Fact Type Version">
-						<child name="RF_Approved_cond_conclusion_context" key="{ABAE8A96-951A-4390-9624-5C3B1CAABC18}" path="RF_Approved_cond_conclusion_context.tcKDTest" />
+						<child name="RF_Aprv_cond_cncl_cntxt_FTMM" key="{ABAE8A96-951A-4390-9624-5C3B1CAABC18}" path="RF_Aprv_cond_cncl_cntxt_FTMM.tcKDTest" />
 						<child name="Draft_condconl_cntxt_nolatst_chgFTver_ok" key="{998F5E9E-1347-4420-91C0-CF8032964E04}" path="Draft_condconl_cntxt_nolatst_chgFTver_ok.tcKDTest" />
 						<child name="RF_Drft_ChngFTver_context_OK" key="{658F91A9-8E90-455B-8A63-FBAA63767152}" path="RF_Drft_ChngFTver_context_OK.tcKDTest" />
 						<child name="RF_Draft_conclusioncol_as_conditioncol" key="{0331FB5D-3FD5-4003-8C1D-518487288210}" path="RF_Draft_conclusioncol_as_conditioncol.tcKDTest" />
 						<child name="RF_Drft_condcol_ChngFTver_Cancel" key="{3B2EF6A7-04A7-42E1-B831-E6055D8F4D93}" path="RF_Drft_condcol_ChngFTver_Cancel.tcKDTest" />
+						<child name="Test1" key="{391EC662-4A5A-4F1C-BFF9-50926891D47C}" path="Test1.tcKDTest" />
 					</folder>
 					<child name="Draft_DV_SR_Enable_Editing" key="{33716E5B-5BA2-4EE0-A6F8-7803A0392AAA}" path="Draft_DV_SR_Enable_Editing.tcKDTest" />
 					<child name="RF_Table_AddFT_Add_SRF" key="{6FF7D11C-BB60-4090-A446-203DAEF87850}" path="RF_Table_AddFT_Add_SRF.tcKDTest" />
